@@ -1,0 +1,20 @@
+En carpeta Laravel y core iu
+-npm install
+
+En carpeta laravel
+composer require "ext-gd:*" --ignore-platform-reqs
+
+En carpeta laravel agragar .env
+
+En carpeta laravel
+php artisan key:generate
+php artisan jwt:secret
+
+
+en carpeta laravel (Correrlo 2 veces)
+npm run dev
+
+
+
+
+

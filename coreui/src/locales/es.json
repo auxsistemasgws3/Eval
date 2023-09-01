@@ -1,0 +1,64 @@
+{
+  "validations": {
+    "required": "Este campo es obligatorio.",
+    "requiredIf": "Este campo es obligatorio.",
+    "numeric": "Este campo debe ser un número.",
+    "minLength": "Mínimo {min} caracteres.",
+    "maxLength": "Máximo {max} caracteres.",
+    "email": "Ingresa una dirección de correo valido",
+    "image": "Ingresa un formato de imagen valido gif, jpeg, tiff, png",
+    "fileSize": "El archivo debe pesar maximo 25Mb",
+    "pdf": "Solo se admiten archivos PDF"
+  },
+  "fields": {
+    "name": "nombre",
+    "code": "clave",
+    "street_address": "calle",
+    "number_address": "número",
+    "colony_address": "colonia",
+    "city_id": "ciudad",
+    "color": "color",
+    "cp_address": "código postal"
+  },
+  "messages":{
+    "errorIN": "El numero de serie ya esta registrado",
+    "errorSA": "Contrato ya cuenta con solicitud de apagado en proceso.",
+    "errorSA1": "Contrato no existe en ADMIN.",
+    "ErrorOS1":"No se encontro Contrato",
+    "error": "Ocurrió un error inesperado, contacte al administrador.",
+    "update":"Datos actualizados con éxito",
+    "insert":"Datos agregados con éxito",
+    "delete":"Datos eliminados con éxito",
+    "question":{
+      "delete":{
+        "title": "¿Esta seguro de eliminarlo?",
+        "description":"Este cambio no podrá ser revertido"
+      },
+      "status":{
+        "title": "¿Esta seguro de cambiar el estatus?",
+        "description":"Este cambio no podrá ser revertido"
+      }
+    }
+  },
+  "buttons": {
+    "success": "Aceptar",
+    "cancel": "cancelar",
+    "close": "cerrar"
+  },
+  "titles":{
+    "create": "Agregar",
+    "update": "Editar"
+  },
+  "tables":{
+    "filter":{
+      "label": "Filtrar",
+      "placeholder": "Escribe..."
+    },
+    "pageSelect": "Elementos por página",
+    "itemsView":{
+      "noResults": "No hay resultados de filtrado disponibles",
+      "noItems":"No se encontraron resultados"
+    }
+
+  }
+}
